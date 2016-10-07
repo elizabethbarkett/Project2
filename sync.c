@@ -9,6 +9,7 @@
 #define _REENTRANT
 
 #include "sthread.h"
+#include<sched.h>
 
 
 /*
