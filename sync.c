@@ -20,6 +20,8 @@ int sthread_rwlock_init(sthread_rwlock_t *rwlock)
 {
         /* FILL ME IN! */
         //5 points. use to initialize resources related to this struct
+        //rwlock ->lock = 0; //unlock
+        //rwlock -> wait_queue = malloc(1000*sizeof(sthread_t));
         return -1;
 }
 
@@ -27,6 +29,7 @@ int sthread_rwlock_destroy(sthread_rwlock_t *rwlock)
 {
         /* FILL ME IN! */
         //5 points. use to free resources related to this struct
+        //free(rwlock->wait_queue)
         return -1;
 }
 
